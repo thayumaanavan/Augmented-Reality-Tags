@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    <TextView android:layout_weight="0.09" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:text="VikkiTag" android:layout_gravity="fill" android:shadowColor="#FFFFFF" android:textSize="30pt"></TextView>
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_width="match_parent" android:layout_weight="0.55" android:clickable="true"></ImageView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_weight="0.18" android:layout_width="match_parent" android:text="Click the logo to get into the AR world"></TextView>
+    <TextView android:id="@+id/textView3" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="287dp" android:layout_height="wrap_content" android:text="Version:1.0"></TextView>
+</LinearLayout>
