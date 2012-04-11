@@ -57,12 +57,12 @@ public class Demo extends AugmentedReality {
       //  t1.setGravity(Gravity.CENTER, 0, 0);
        // t1.show();
         //Network
-        NetworkDataSource twitter = new TwitterDataSource(this.getResources());
-        sources.put("twitter",twitter);
-        NetworkDataSource wikipedia = new WikipediaDataSource(this.getResources());
-        sources.put("wiki",wikipedia);
-        NetworkDataSource buzz = new BuzzDataSource(this.getResources());
-        sources.put("buzz",buzz);
+       // NetworkDataSource twitter = new TwitterDataSource(this.getResources());
+       // sources.put("twitter",twitter);
+      //  NetworkDataSource wikipedia = new WikipediaDataSource(this.getResources());
+      //  sources.put("wiki",wikipedia);
+      //  NetworkDataSource buzz = new BuzzDataSource(this.getResources());
+      //  sources.put("buzz",buzz);
     }
 
 	/**
